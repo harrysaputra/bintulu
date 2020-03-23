@@ -28988,9 +28988,10 @@ video {
   transition-duration: 1000ms;
 }
 
-html {
-  width: 100vw;
-  height: 100vh;
+@media (min-width: 1920px) {
+  html {
+    font-size: 200%;
+  }
 }
 
 @media (min-width: 640px) {
